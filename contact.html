@@ -47,7 +47,7 @@
 									</ul>
 								</li>
 								<li class="current"><a href="meet_the_team.html">Meet the Team</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="meet_the_team.html">Contact</a></li>
 								<!-- <li><a href="elements.html">Elements</a></li> -->
 							</ul>
 						</nav>
@@ -57,8 +57,7 @@
 				<!-- Section -->
 					<section id="one" class="main alt">
 						<header class="accent1">
-							<h1>Meet the Team</h1>
-							<p>Ipsum dolor lorem feugiat magna neque egestas augue eu vulpu magna erat. Aliquam erat volutpat. Nam dui mi tincidunt.</p>
+							<h1>Contact Us</h1>
 						</header>
 						<!-- <div class="inner alt">
 							<div class="content">
@@ -76,60 +75,28 @@
 					<section id="two" class="main alt">
 
 					<div class="row inner alt">
-						<div class="column">
-						  <div class="card">
-							<img src="images/team/ShinikaB.jpg" alt="Jane" style="width:50% ; display: block; margin-left: auto; margin-right: auto; padding-top: 10px;">
-							<div class="container">
-							  <h2>Shinika Balasundar</h2>
-							  <p class="title">CEO</p>
-							  <p>Vehicle Engineering || Hub-Motors R&D Lead at Spartan Racing || Ex - Tesla, Aptiv || B.S. Computer Engineering @ SJSU</p>
-							  <p>example@example.com</p>
-							  <p><button class="button">Contact</button></p>
-							</div>
-						  </div>
-						</div>
-					  
-						<div class="column">
-						  <div class="card">
-							<img src="images/team/NovelA.jpg" alt="Jane" style="width:50% ; display: block; margin-left: auto; margin-right: auto; padding-top: 10px;">
-							<div class="container">
-							  <h2>Novel Alam</h2>
-							  <p class="title">CTO</p>
-							  <p>Embedded Designer @ SJSU Formula One || Computer Engineering @ SJSU || General Atomics || Metrosemi || Neuroleap</p>
-							  <p>example@example.com</p>
-							  <p><button class="button">Contact</button></p>
-							</div>
-						  </div>
-						</div>
-					  
-						<div class="column">
-							<div class="card">
-							  <img src="images/team/BrianC.jpg" alt="Jane" style="width:50% ; display: block; margin-left: auto; margin-right: auto; padding-top: 10px;">
-							  <div class="container">
-								<h2>Brian Chiang</h2>
-								<p class="title">Firmware Lead</p>
-								<p>Spartan Racing BMS Embedded Lead Engineer || B.S. CMPE @ SJSU</p>
-								<p>example@example.com</p>
-								<p><button class="button">Contact</button></p>
-							  </div>
-							</div>
-						</div>
-
-						<div class="column">
-							<div class="card">
-							  <img src="images/team/JordanN.jpg" alt="Jane" style="width:50% ; display: block; margin-left: auto; margin-right: auto; padding-top: 10px;">
-							  <div class="container">
-								<h2>Jordan Nguyen</h2>
-								<p class="title">CFO & Mechanical Designer</p>
-								<p>B.S. CMPE @ SJSU</p>
-								<p>example@example.com</p>
-								<p><button class="button">Contact</button></p>
-							  </div>
-							</div>
-						</div>
-						
+							<form id="contactForm" action="action_page.php">
+						  
+							  <label for="fname">Name</label>
+							  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+						  
+							  <label for="e-mail">Email</label>
+							  <input type="text" id="e-mail" name="email" placeholder="Your email..">
+						  
+							  <label for="country">Country</label>
+							  <select id="country" name="country">
+								<option value="australia">Australia</option>
+								<option value="canada">Canada</option>
+								<option value="usa">USA</option>
+							  </select>
+						  
+							  <label for="subject">Subject</label>
+							  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+						  
+							  <input type="submit" value="Submit">
+						  
+							</form>
 					</div> 
-
 					</section>
 
 
@@ -163,7 +130,7 @@
 								<li><a href="#">Company</a></li>
 								<li><a href="#">Milestones</a></li>
 								<li><a href="#">Blog</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="#">Contact</a></li>
 							</ul>
 						</section>
 						<!-- <section>
