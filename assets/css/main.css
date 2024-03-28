@@ -5220,3 +5220,11 @@ input, select, textarea {
 #contactForm * {
 	width: 80%;
 }
+
+#two hr {
+	border: none;
+	height: 1px;
+	/* Set the hr color */
+	color: #333;  /* old IE */
+	background-color: #333;  /* Modern Browsers */
+}
