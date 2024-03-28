@@ -5209,7 +5209,7 @@ input, select, textarea {
 		overflow: visible;
 		
 		/* You can change the background color and image URL here.  This solution works with animated .svg and animated .gif */
-		background: #ffffff url('/images/HydroLink.gif') no-repeat center center;
+		background: #ffffff url('../../images/HydroLink.gif') no-repeat center center;
 	  }
 	
 #contactForm {
