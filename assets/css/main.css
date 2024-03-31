@@ -340,7 +340,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px;
+		border-bottom: solid 1px grey;
 		margin: 2rem 0;
 	}
 
@@ -3516,6 +3516,7 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.75s ease-out, opacity 1.25s ease;
 				-ms-transition: -ms-transform 0.75s ease-out, opacity 1.25s ease;
 				transition: transform 0.75s ease-out, opacity 1.25s ease;
+				background-color: rgba(245, 245, 245, 0.116);
 			}
 
 			#banner .content.secondary {
@@ -5225,8 +5226,8 @@ input, select, textarea {
 	border: none;
 	height: 1px;
 	/* Set the hr color */
-	color: #333;  /* old IE */
-	background-color: #333;  /* Modern Browsers */
+	color: #a5a5a5;  /* old IE */
+	background-color: #a5a5a5;  /* Modern Browsers */
 }
 
 /* Timeline milestones */
@@ -5401,3 +5402,10 @@ input, select, textarea {
 	from {bottom: 30px; opacity: 1;}
 	to {bottom: 0; opacity: 0;}
   }
+
+.blog-post {
+	margin-bottom: 40px;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 10px;
+}
